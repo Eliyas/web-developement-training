@@ -1,0 +1,94 @@
+.body {
+    height: 500px;
+    background: #f7f5f5;
+}
+
+.gallery-wrapper {
+    padding: 50px 90px;
+}
+
+.gallery-wrapper div[class|=col] {
+    padding: 0 30px;
+    height: 420px;
+    padding-right: 0;
+}
+
+.gallery-wrapper .card-wrapper {
+    height: 100%;
+}
+
+.img-wrapper {
+    height: 55%;
+    padding: 0;
+}
+
+.content-wrapper {
+    height: 45%;
+}
+
+.card-wrapper .row {
+    height: 100%;
+}
+
+.img-wrapper img {
+    width: 100%;
+    height: 100%;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.card-wrapper {
+    background: white
+}
+
+.user-info {
+    height: 70%;
+    padding-top: 15px;
+}
+
+.user-likes {
+    height: 30%;
+}
+
+.user-info span {
+    color: #2fc2dc;
+    font-weight: bold;
+}
+
+.user-img-list {
+    padding: 0;
+}
+
+.user-img-list li {
+    list-style: none;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 0 2px;
+}
+
+.user-img-list li img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.plus-icon-li {
+    float: right;
+    display: flex !important;
+    align-items: center;
+    justify-content: center; 
+    border-radius: 50%;
+    border: 1px solid lightgray; 
+}
+
+.plus-icon-li span {
+    height: 21px;
+    display: flex;
+    margin-bottom: 12px;
+    font-size: 20px;
+    color: lightgray;
+    font-weight: bold;
+}
